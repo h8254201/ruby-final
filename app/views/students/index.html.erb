@@ -1,6 +1,16 @@
 <p id="notice"><%= notice %></p>
 <div class="container">
-  <h1>成績列表</h1>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">國立台北超強大學</a>
+        </div>
+        <p class="navbar-text">成績單</p>
+      </div>
+    </div>
+  </nav>
+  <b>成績列表</b>
   <%= link_to '新增學生', new_student_path , :class => "btn-success btn btn-big" %>
   <HR>
   <p>分數級別說明 : 90分以上 S / 80~89 : A / 70~79 : B級 / 60~69 : C級 / 未滿60 : D級</p>
